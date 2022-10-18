@@ -1,0 +1,45 @@
+{
+  "settings": {
+    "energyDivisor": 5000,
+    "refreshDelay": 1000,
+    "incrementalSoundPitch": true,
+    "voiceAnnouncements": true
+  },
+  "thorGuards": [
+    {
+      "name": "Jack Thor",
+      "data": "http://ccofnc.thormobile9.net/NC0022.xml",
+      "mobile": "http://ccofnc.thormobile9.net/mobile/"
+    },
+    {
+      "name": "Hebron High School",
+      "data": "http://lisd.thormobile13.net/hhs/TX0149.xml",
+      "mobile": "http://lisd.thormobile13.net/hhs/mobile/"
+    },
+    {
+      "name": "Gavin Thor",
+      "data": "http://tropical.thormobile12.net/fl/FL0500.xml",
+      "mobile": "http://tropical.thormobile12.net/fl"
+    },
+    {
+      "name": "FAU",
+      "data": "http://fau.thormobile7.net/fl0421.xml",
+      "mobile": "http://fau.thormobile7.net"
+    },
+    {
+      "name": "another lmao",
+      "data": "http://standrewscc.thormobile8.net/fl0445.xml",
+      "mobile": "http://standrewscc.thormobile8.net/"
+    },
+    {
+      "name": "wellington florida",
+      "data": "http://wellingtonfl.thormobile4.net/aquatics/fl0691.xml",
+      "mobile": "http://wellingtonfl.thormobile4.net/"
+    },
+    {
+      "name": "glenn eagle",
+      "data": "http://gleneaglescc.thormobile7.net/fl0435.xml",
+      "mobile": "http://gleneaglescc.thormobile7.net/"
+    }
+  ]
+}

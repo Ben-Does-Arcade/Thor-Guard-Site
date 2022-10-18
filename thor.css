@@ -1,0 +1,111 @@
+@keyframes blink {
+    from {
+        color: #ff6666;
+    }
+    to {
+        color: #ff0000;
+    }
+}
+
+* {
+    font-family: sans-serif;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+button {
+    display: none;  /* THE JACK WAY */
+}
+
+p {
+    line-height: 1;
+    margin: 0 0 10px 0;
+}
+
+a {
+    color: lightblue;
+    display: inline;
+}
+
+.background-image {
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+    position: fixed;
+    background-image: url("http://thormobile.stormdata.org/global/images/background.jpg");
+    filter: blur(5px);
+}
+
+.thor-name {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    transition-duration: 1s;
+}
+
+.flashing {
+    animation: blink ease-in infinite alternate-reverse 0.5s;
+}
+
+.thor-status {
+    text-align: center;
+    font-weight: bold;
+    font-size: 18pt;
+    display: none; /* THE JACK WAY */
+}
+
+.thor-table {
+    border: white solid 1px;
+}
+
+.thor-table td {
+    padding: 10px;
+}
+
+.thor-table {
+    width: 300px;
+}
+
+.thor-property-table {
+    width: 150px;
+}
+
+.thor-energy-bar {
+    display: flex;
+    width: 100%;
+    height: 10px;
+    margin: 10px 0 10px 0;
+}
+
+.thor-energy-bar-positive {
+    width: 100%;
+    height: 100%;
+}
+
+.thor-energy-bar-negative {
+    width: 100%;
+    height: 100%;
+}
+
+.thor-energy-bar-filled-positive {
+    transition-duration: 1s;
+    background-color: orange;
+    width: 0;
+    height: 100%;
+    float: left;
+}
+
+.thor-energy-bar-filled-negative {
+    transition-duration: 1s;
+    background-color: red;
+    width: 0;
+    height: 100%;
+    float: right;
+}
+
+.button-refresh {
+    float: right;
+}
